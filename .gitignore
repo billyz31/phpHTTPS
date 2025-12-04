@@ -20,3 +20,6 @@ www/admin/*/wwwroot/.user.ini
 
 # 忽略開發日誌
 DEVELOPMENT_LOG.md
+
+# 忽略敏感憑證
+credentials.txt
