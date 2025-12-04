@@ -1,31 +1,25 @@
-# 敹賜 IDE 閮剖?瑼?
+# IDE
 .vscode/
 .idea/
 
-# 敹賜 Docker ?賊??冽?瑼??亥?
-docker-win-ubuntu-phpstudy-main/docker-win-ubuntu-phpstudy-main/log/
+# Docker Logs
 *.log
+docker-win-ubuntu-phpstudy-main/log/
 
-# 敹賜蝟餌絞??瑼?
+# System Files
 .DS_Store
 Thumbs.db
 
-# 敹賜???? (??活?航蝪賢?嚗??函?撖血?獢葉蝘銝?銝)
-# www/test_https/selfsigned.key
-# www/test_https/selfsigned.crt
-# ?活?箔??嫣噶? VPS 銝??橘????閮曹??喉?雿甇???Ｗ?銝剜??? CI/CD ?憓?? 豢釣??
-
-# 敹賜?砍?冽?孵?閮剖?
-www/admin/*/wwwroot/.user.ini
-
-# 敹賜??亥?
+# Project Sensitive Files
 DEVELOPMENT_LOG.md
-
-# 敹賜????
 credentials.txt
 
-# 敹賜????
-start.php
+# SSL Certs (Local)
+www/test_https/selfsigned.key
+www/test_https/selfsigned.crt
 
-# 敹賜 MySQL ??摨?
+# MySQL Data
 www/mysql_data/
+
+# Temp/User Configs
+www/admin/*/wwwroot/.user.ini
