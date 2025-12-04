@@ -17,3 +17,6 @@ Thumbs.db
 
 # 忽略本地用戶特定設定
 www/admin/*/wwwroot/.user.ini
+
+# 忽略開發日誌
+DEVELOPMENT_LOG.md
