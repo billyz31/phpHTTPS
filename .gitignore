@@ -1,25 +1,31 @@
-# 忽略 IDE 設定檔
+# 敹賜 IDE 閮剖?瑼?
 .vscode/
 .idea/
 
-# 忽略 Docker 相關臨時檔或日誌
+# 敹賜 Docker ?賊??冽?瑼??亥?
 docker-win-ubuntu-phpstudy-main/docker-win-ubuntu-phpstudy-main/log/
 *.log
 
-# 忽略系統生成檔案
+# 敹賜蝟餌絞??瑼?
 .DS_Store
 Thumbs.db
 
-# 忽略敏感憑證 (雖然我們這次是自簽名，但在真實專案中私鑰不應上傳)
+# 敹賜???? (??活?航蝪賢?嚗??函?撖血?獢葉蝘銝?銝)
 # www/test_https/selfsigned.key
 # www/test_https/selfsigned.crt
-# 這次為了方便我們在 VPS 上重現，先暫時允許上傳，但在正式產品中應透過 CI/CD 或環境變數注入
+# ?活?箔??嫣噶? VPS 銝??橘????閮曹??喉?雿甇???Ｗ?銝剜??? CI/CD ?憓?? 豢釣??
 
-# 忽略本地用戶特定設定
+# 敹賜?砍?冽?孵?閮剖?
 www/admin/*/wwwroot/.user.ini
 
-# 忽略開發日誌
+# 敹賜??亥?
 DEVELOPMENT_LOG.md
 
-# 忽略敏感憑證
+# 敹賜????
 credentials.txt
+
+# 敹賜????
+start.php
+
+# 敹賜 MySQL ??摨?
+www/mysql_data/
